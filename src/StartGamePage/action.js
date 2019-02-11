@@ -4,7 +4,7 @@ export function submitGameConf(word,tryQty) {
     let wordToFindTab_tmp = word.split("");
     let wordToFindTab = wordToFindTab_tmp.map((ligne)=>{
         return {
-            lettre: ligne,
+            letter: ligne,
             letterFund: false
         };
     });

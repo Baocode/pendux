@@ -6,6 +6,7 @@ import {Field, reduxForm} from "redux-form";
 import logo from "../Asset/logo.svg";
 import './StartGame.css';
 import {submitGameConf} from "./action";
+import {onlyLetters,onlyNumbers,minLength3,minMaxValue} from "../FieldValidator";
 
 
 class StartGame extends Component{

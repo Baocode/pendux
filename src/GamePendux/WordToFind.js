@@ -12,13 +12,13 @@ class WordToFind extends Component{
             if (wordFund) {
                 return (
                     <div key={index} className="letter">
-                        <p>{ligne.lettre}</p>
+                        <p>{ligne.letter}</p>
                     </div>
                 );
             } else {
                 return (
                     <Col key={index} className="letter">
-                        {ligne.letterFund ?ligne.lettre : undefined}
+                        {ligne.letterFund ?ligne.letter : undefined}
                     </Col>
                 );
             }
@@ -43,7 +43,7 @@ function mapStateToProps(reduxState){
 
     return {
         wordFund,
-        wordToFindTab: wordToFindTab,
+        wordToFindTab,
         wordLength
     };
 }

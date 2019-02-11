@@ -4,7 +4,7 @@ return((!value || value.length < 4) ? 'taille trop petite' : undefined )
 };
 
 export function onlyLetters(value) {
-let reg = new RegExp(/[ !@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?éàèù]/);
+let reg = new RegExp(/[ !@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?çéàèù]/);
 
 return((!value || (reg.test(value))) ? 'ne doit contenir que des lettres' : undefined )
 };
@@ -19,5 +19,5 @@ return((!value || !(value>=5 && value<=12)) ? 'La valeur doit etre comprise entr
 }
 
 export function maxLength1(value){
-    return((!value || value.length > 1) ? 'Une lettre à la fois' : undefined )
+    return((!value || value.length > 1) ? 'Une letter à la fois' : undefined )
 }

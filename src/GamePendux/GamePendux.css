@@ -34,6 +34,7 @@
     margin: 10px;
 }
 
+
 .lettre p{
     text-align: center;
     margin-left: 10px;
@@ -41,6 +42,6 @@
 }
 
 .motBlock, .nbTry{
-    display: flex;
+    width: 10px ;
 }
 
