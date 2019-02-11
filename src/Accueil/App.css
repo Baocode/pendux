@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.StartGame-logo {
+  height: 30vmin;
+}
+
+.StartGame-header {
+  margin-top: 16vh;
+  background-color: #b0bec5;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.StartGame-link {
+  color: #61dafb;
+}
